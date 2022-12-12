@@ -1,0 +1,139 @@
+@media (max-width: 920px) {
+    .container {
+            width: auto;
+            padding: 0 50px;
+        }
+    //<work-details>
+            .container {
+            width: auto;
+            padding: 0 50px;
+        }
+    .dashboard{
+        .dashboard__title{
+            margin-top: 40px;
+        }
+        .dashboard__text{
+            width: 100%;
+        }
+        .dashboard__image{
+            width: 100%;
+            height: 54vw;
+        }
+    }
+    .heading{
+        .heading__text{
+            width: 100%;
+        }
+        .heading__image_car{
+            width: 100%;
+            height: 54vw;
+
+        }
+        .heading__image_options{
+            width: 100%;
+            height: 54vw;
+
+        }
+    }
+    //</work-details>
+}
+
+@media (max-width: 665px) {
+
+    body {
+        .footer{
+        .footer__link_icon{
+            font-size: 32px;
+
+        }
+        }
+         //<index>
+        .header{
+            .header__nav{
+                justify-content: center;
+            }
+            .header__ul{
+                margin-right: 0;
+            }
+        }
+        .hi {
+            .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .hi__words {
+                order: 2;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .hi__title {
+                text-align: center;
+            }
+            .hi__subtitle {
+                text-align: center;
+            }
+            .hi__image {
+                order: 1;
+                margin: 0 0 30px 0;
+            }
+}
+        .recent-posts{
+            .container{
+
+            }
+            .recent-posts__words_top{
+                justify-content: center;
+            }
+            .recent-posts__title {
+                text-align: center;
+            }
+            .recent-posts__link {
+                display: none;
+            }
+            .recent-posts__columns_box{
+                flex-direction: column;
+                align-items: center;
+            }
+            .recent-posts__columns{
+                margin-right: 0;
+            }
+        }
+        .featured-works{
+            margin-top: 50px;
+            .featured-works__title{
+                text-align: center;
+            }
+            .featured-works__row_box{
+
+            }
+            .feature-works__row {
+                &:nth-child(n+2){
+                    display: none;
+                }
+            }
+         .featured-works__row_content{
+                display: flex;
+                flex-direction: column;
+             align-items: center;
+            }
+            .feature-works__img{
+                margin: 0;
+                width: 339px;
+                height: 230px;
+            }
+            .feature-works__words_box{
+                margin-top: 17px;
+            }
+        }
+    //</index>
+    //blog
+        .blog{
+            .blog__title{
+                margin-top: 38px;
+            }
+        }
+
+    }
+}

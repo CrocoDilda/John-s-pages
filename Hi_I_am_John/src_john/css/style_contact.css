@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap");
+body {
+  font-family: "Heebo";
+}
+
+.container {
+  margin: 0 auto;
+  width: 856px;
+}
+
+.header .header__nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.header .header__ul {
+  width: 236px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 32px 60px 0 0;
+}
+.header .header__elements {
+  list-style-type: none;
+}
+.header .header__link {
+  text-decoration: none;
+  color: #000000;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  font-size: 20px;
+  font-weight: 500;
+}
+.header .header__link:active {
+  color: #FF6464;
+}
+.header .header__link:hover {
+  color: #FF6464;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.featured-works {
+  min-height: 800px;
+}
+.featured-works .featured-works__title {
+  font-size: 22px;
+  font-weight: 400;
+}
+.featured-works .featured-works__title_2-page {
+  font-size: 44px;
+  font-weight: 900;
+}
+.featured-works .feature-works__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.featured-works .feature-works__row:after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #E5E5E5;
+  margin-top: 15px;
+}
+.featured-works .featured-works__row_content {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.featured-works .feature-works__img {
+  margin-right: 18px;
+}
+.featured-works .feature-works__words_box .feature-works__words_title {
+  font-size: 30px;
+  font-weight: 700;
+}
+.featured-works .feature-works__words_box .feature-works__words_date-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 16px;
+}
+.featured-works .feature-works__words_box .feature-works__words_date-box .feature-works__words_year {
+  height: 25px;
+  width: 62px;
+  border-radius: 16px;
+  background: #142850;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.featured-works .feature-works__words_box .feature-works__words_date-box .feature-works__words_year:hover {
+  background: #FF6464;
+}
+.featured-works .feature-works__words_box .feature-works__words_date-box .feature-works__words_comment {
+  font-size: 20px;
+  font-weight: 400;
+  color: #8695A4;
+  margin-left: 26px;
+}
+.featured-works .feature-works__words_box .feature-works__words_text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #21243D;
+  margin-top: 20px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 182px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.footer .container {
+  max-width: 300px;
+}
+.footer .footer__link_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.footer .footer__link_icon {
+  font-size: 32px;
+  color: #21243D;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.footer .footer__link_icon:hover {
+  color: #FF6464;
+}
+.footer .icon-facebook-square:before {
+  content: "\e900";
+}
+.footer .icon-instagram:before {
+  content: "\ea92";
+}
+.footer .icon-twitter:before {
+  content: "\ea96";
+}
+.footer .icon-linkedin:before {
+  content: "\eac9";
+}
+.footer .footer__link {
+  margin-right: 35px;
+}
+.footer .footer__link:last-child {
+  margin-right: 0;
+}
+.footer .footer__text {
+  margin-top: 26px;
+  text-align: center;
+}

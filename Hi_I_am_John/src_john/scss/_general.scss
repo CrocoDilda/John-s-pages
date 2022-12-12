@@ -1,0 +1,112 @@
+//hi
+.hi {
+    min-height: 594px;
+    padding: 149px 0;
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .hi__words {
+        max-width: 506px;
+    }
+    .hi__title {
+        font-size: 44px;
+        font-weight: 700;
+        line-height: 60px;
+    }
+    .hi__subtitle {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        margin: 40px 0 47px 0;
+    }
+    .hi__button {
+        display: block;
+        height: 47px;
+        width: 208px;
+        background: $color_primary;
+        font-size: 20px;
+        font-weight: 500;
+        color: $color_light;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: .2s;
+        border-radius: 5px;
+        &:hover{
+            color: $color_primary;
+            background: none;
+        }
+    }
+    .hi__image {
+        width: 243px;
+        height: 243px;
+        margin-left: 50px;
+    }
+}
+//recent-posts
+.recent-posts {
+    min-height: 396px;
+    background: $color_light;
+    .container {
+    }
+    .recent-posts__words_top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+    }
+    .recent-posts__title {
+        font-weight: 400;
+        font-size: 22px;
+        color: #21243D;
+    }
+    .recent-posts__link {
+        color: $color_secondry;
+        transition: .2s;
+        &:hover{
+            color: $color_primary;
+        }
+    }
+    .recent-posts__columns_box {
+        display: flex;
+        justify-content: space-between;
+    }
+    .recent-posts__columns {
+        max-width: 418px;
+        min-height: 295px;
+        background: $color_white;
+        box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+        border-radius: 4px;
+        padding: 24px 5px 7px 23px;
+        margin: 0 30px 30px 0;
+        &:nth-child(2){
+            margin-right: 0;
+        }
+    }
+    .recent-posts__column_title {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 38px;
+        color: $color_pale_dark_blue;
+    }
+    .recent-posts__column_date {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        color: $color_pale_dark_blue;
+        margin-top: 17px;
+        .recent-posts__span {
+        margin: 0 25px;
+        }
+
+    }
+    .recents-posts__column_text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #21243D;
+        margin-top: 11px;
+    }
+}
+

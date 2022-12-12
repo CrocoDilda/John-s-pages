@@ -1,0 +1,69 @@
+.image {
+    width: 681px;
+    height: 460px;
+}
+
+.dashboard {
+    .dashboard__title {
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+    .dashboard__subtitle {
+        font-size: 20px;
+        font-weight: 400;
+        display: flex;
+        margin-top: 30px;
+    }
+    .dashboard__subtitle_date {
+        width: 62px;
+        height: 25px;
+        background: $color_primary;
+        border-radius: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $color_white;
+        font-size: 18px;
+        font-weight: 900;
+        margin-right: 17px;
+    }
+    .dashboard__text {
+        margin-top: 23px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        width: 681px;
+    }
+    .dashboard__image {
+        background: url(../image/work-detail/work-detail_image.jpg) center center / 100% no-repeat;
+    }
+}
+
+.heading {
+        .heading__image_car {
+            background: url(../image/work-detail/Rectangle%205.jpg) center center / 100% no-repeat;
+            margin-top: 28px;
+}
+        .heading__image_options {
+            background: url(../image/work-detail/Rectangle%206.jpg) center center / 100% no-repeat;
+            margin-top: 30px;
+    }
+    .heading__title {
+        font-size: 30px;
+        font-weight: 500;
+        margin-top: 54px;
+    }
+    .heading__subtitle {
+        font-size: 24px;
+        font-weight: 500;
+        margin-top: 15px;
+    }
+    .heading__text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-top: 16px;
+        width: 677px;
+    }
+}
